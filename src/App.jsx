@@ -1,13 +1,11 @@
 import React from "react"
+import UserLayout from "./layouts/UserLayout"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <h1>Anubit</h1>
-      </div>
+      <UserLayout/>
     </>
   )
 }
