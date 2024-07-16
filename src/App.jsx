@@ -1,11 +1,14 @@
 import React from "react"
 import UserLayout from "./layouts/UserLayout"
+import Home from "./pages/Home"
 
 function App() {
 
   return (
     <>
-      <UserLayout/>
+      <UserLayout>
+        <Home/>
+      </UserLayout>
     </>
   )
 }
