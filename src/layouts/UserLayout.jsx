@@ -1,10 +1,18 @@
 import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
-function UserLayout() {
+function UserLayout(props) {
   return (
-    <div>
-        <h1>Anubit</h1>
+    <>
+    <Header/>
+    <div className='min-h-screen'>
+        {
+          props.children
+        }
     </div>
+    <Footer/>
+    </>
   )
 }
 
